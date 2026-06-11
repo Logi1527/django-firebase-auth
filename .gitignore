@@ -1,0 +1,11 @@
+# Ignore Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore secret credentials files
+firebase-service-account.json
+
+# Ignore local database files
+db.sqlite3

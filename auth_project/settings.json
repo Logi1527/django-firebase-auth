@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./auth_project",
+        "./firebase_auth"
+    ]
+}

@@ -77,6 +77,3 @@ When a protected API endpoint is targeted, the client must include a Firebase id
 Plaintext
 Authorization: Bearer <YOUR_FIREBASE_ID_TOKEN>
 The custom FirebaseAuthentication class in firebase_auth/authentication.py intercepts this header, extracts the raw token, verifies it against Google's servers, and hooks the payload natively into Django's request.user framework.
-
-
-Once you save this file, remember to run `git add README.md`, `git commit -m "docs: add README instructions"`, and `git push origin main` to sync it to GitHub!
